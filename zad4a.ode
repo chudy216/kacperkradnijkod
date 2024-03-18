@@ -1,0 +1,8 @@
+par k=1
+theta'=k*sin(theta)-sin(2*theta)
+init theta=0
+@ total=10,xlo=0,ylo=-3.14, xhi=10, yhi=3.14
+@ fold var=x
+@ parmin=-2.5, parmax=2.5
+@ autoxmin=-3, autoxmax=3, autoymin=-3.5, autoymax=3.5
+done
